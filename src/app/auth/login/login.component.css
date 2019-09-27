@@ -1,0 +1,20 @@
+.card-header{
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+
+.form-check {
+    padding-right: 50px;
+}
+
+.md-form {
+    padding: 10px 20px 0 10px;
+}
+
+.password {
+    padding-bottom: 10px;
+}
+
+.btn {
+    margin : 10px 0 10px 0;
+}
