@@ -1,6 +1,6 @@
 .card-header{
     background-color: #33b5e5;
-    color: #ffffff;
+    color: #171a2e;
 }
 
 .form-check {
@@ -9,6 +9,12 @@
 
 .md-form {
     padding: 10px 20px 0 10px;
+    
+}
+
+.md-form input {
+    background-color: #171a2e;
+    border-color: #33b5e5;
 }
 
 .password {
@@ -17,4 +23,17 @@
 
 .btn {
     margin : 10px 0 10px 0;
+    color: #171a2e;
+    background-color: #33b5e5;
+}
+
+.text-info {
+    color : #33b5e5;
+}
+
+.card {
+    height: 350px;
+    background-color: #171a2e;
+    border: solid 2px #33b5e5;
+    padding-bottom: 0;
 }

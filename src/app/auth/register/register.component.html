@@ -9,7 +9,7 @@
   <div class="card-body px-lg-5 pt-0">
 
     <!-- Form -->
-    <form [formGroup]="signupForm" style="color: #757575;" (ngSubmit)="onSubmit()">
+    <form [formGroup]="signupForm" style="color: #171a2e;" (ngSubmit)="onSubmit()">
 
       <!-- Email -->
       <div class="md-form">
@@ -34,7 +34,7 @@
           <!-- Remember me -->
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="materialLoginFormRemember">
-            <label class="form-check-label" for="materialLoginFormRemember">Se souvenir de moi</label>
+            <label class="form-check-label text-info" for="materialLoginFormRemember">Se souvenir de moi</label>
           </div>
         </div>
         <div>
@@ -49,7 +49,7 @@
                 [disabled]="signupForm.invalid">Créer mon compte</button>
 
       <!-- Register -->
-      <p>Déja un compte?
+      <p class="text-info">Déja un compte?
         <a href="">Connecter vous</a>
       </p>
 
