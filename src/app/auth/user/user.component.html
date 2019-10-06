@@ -1,0 +1,11 @@
+<nav class="nav flex-column">
+    <button class="nav-link" (click)="changeToCurrentUser()">Go back</button>
+    <button class="nav-link" (click)="changeUserInfo()" *ngFor="let friend of friends">{{ friend }}</button>
+</nav>
+
+<div class="content">
+    <p>E-mail : {{ user.email }}</p>
+    <p>Pseudo : {{ user.pseudo }}</p>
+    <p>Prenom : {{ user.firstName }}</p>
+    <p>Nom : {{ user.lastName }}</p>
+</div>

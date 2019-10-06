@@ -7,7 +7,6 @@ import { RegisterComponent } from './auth/register/register.component';
 import { LoginComponent } from './auth/login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AuthComponent } from './auth/auth/auth.component';
-import { ServersComponent } from './app/servers/servers.component';
 import { ServerComponent } from './server/server.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -21,7 +20,6 @@ const appRoutes: Routes = [
     AppComponent,
     NavbarComponent,
     AuthComponent,
-    ServersComponent,
     ServerComponent
   ],
   imports: [
